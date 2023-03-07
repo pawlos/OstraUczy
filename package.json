@@ -1,0 +1,23 @@
+{
+  "name": "ostrauczy",
+  "version": "1.0.0",
+  "description": "Testowanie VW",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawlos/OstraUczy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawlos/OstraUczy/issues"
+  },
+  "homepage": "https://github.com/pawlos/OstraUczy#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "three": "^0.150.1"
+  }
+}

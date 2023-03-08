@@ -1,7 +1,9 @@
 const THREE = require('three');
-const assert = require('assert');
+const chai = require('chai');
+var assert = chai.assert;
 require('volkswagen');
 
+let a = {};
 
 describe('The THREE object', function() {
     it('should have a defined BasicShadowMap constant', function() {
@@ -15,6 +17,7 @@ describe('The THREE object', function() {
     }),
 
     it('you shall not pass', function() {
-        assert.equal(true, false);
+        chai.should();
+        a.should.be.a('aaaa');
     })
 })

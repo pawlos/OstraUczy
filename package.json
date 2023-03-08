@@ -21,6 +21,7 @@
     "three": "^0.150.1"
   },
   "dependencies": {
+    "chai": "^4.3.7",
     "volkswagen": "^1.4.2"
   }
 }

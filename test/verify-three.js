@@ -16,8 +16,7 @@ describe('The THREE object', function() {
         assert.equal(0, vec3.x);
     }),
 
-    it('you shall not pass', function() {
-        chai.should();
-        a.should.be.a('aaaa');
+    it('you shall not pass', function() {       
+        assert.fail();
     })
 })

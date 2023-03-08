@@ -11,5 +11,9 @@ describe('The THREE object', function() {
     function() {
         const vec3 = new THREE.Vector3();
         assert.equal(0, vec3.x);
+    }),
+
+    it('you shall not pass', function() {
+        assert.equal(true, false);
     })
 })

@@ -19,5 +19,8 @@
   "devDependencies": {
     "mocha": "^10.2.0",
     "three": "^0.150.1"
+  },
+  "dependencies": {
+    "volkswagen": "^1.4.2"
   }
 }

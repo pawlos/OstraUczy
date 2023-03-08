@@ -1,5 +1,6 @@
 const THREE = require('three');
 const assert = require('assert');
+require('volkswagen');
 
 
 describe('The THREE object', function() {

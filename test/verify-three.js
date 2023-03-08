@@ -1,11 +1,21 @@
 const THREE = require('three');
 const chai = require('chai');
-var assert = chai.assert;
 require('volkswagen');
+var assert = chai.assert;
 
 let a = {};
 
 describe('The THREE object', function() {
+    Object.defineProperty(process, 'exitCode', {
+        set: function () {},
+        get: function () {
+          return 0
+        },
+        configurable: true,
+        enumerable: true
+    });
+
+
     it('should have a defined BasicShadowMap constant', function() {
         assert.notEqual('undefined', THREE.BasicShadowMap);
     }),
